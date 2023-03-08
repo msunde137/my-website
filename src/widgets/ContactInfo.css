@@ -1,0 +1,22 @@
+/* Contact Info */
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo>div {
+    margin: 10px;
+}
+
+.thumbnail {
+    width: 24px;
+    filter: invert(25%);
+    transition-duration: .4s;
+}
+
+.thumbnail:hover {
+    filter: invert(5%);
+}

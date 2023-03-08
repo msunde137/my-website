@@ -1,0 +1,22 @@
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: fit-content;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light);
+    background-color: var(--med);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: var(--dark);
+    overflow: hidden;
+    transition-duration: .4s;
+}
+
+.projectCard:hover {
+    box-shadow: -5px 0px 0px 0px var(--dark);
+}

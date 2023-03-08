@@ -1,0 +1,193 @@
+:root {
+  --dark: #506d6e;
+  --med: #255491;
+  --light: #C2F9BB;
+  --link: #62C370;
+
+  /* IE and Edge */
+  -ms-overflow-style: none;
+  /* Firefox */
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  margin: 20px 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--light);
+  text-align: center;
+}
+
+h2 {
+  margin: 10px 0px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--light);
+  background-color: var(--med);
+  text-align: center;
+}
+
+h3 {
+  margin: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--light);
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+  margin: 0px;
+  color: var(--light);
+}
+
+.text-link {
+  text-decoration: none;
+  color: var(--link)
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.main-text {
+  padding: 10px 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .main-text {
+    padding: 10px
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  color: var(--light);
+  height: fit-content;
+  padding: 0px;
+}
+
+.App-nav {
+  background-color: var(--med);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  text-align: center;
+  /* background-color: var(--med); */
+  width: 100%;
+}
+
+
+.App-section {
+  padding: 0px;
+  margin: 10px 0px;
+  width: stretch;
+  display: flex;
+  flex-direction: column;
+  color: var(--light);
+}
+
+.App-work {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  padding: 20px 50px;
+
+}
+
+.App-work::-webkit-scrollbar {
+  display: none;
+}
+
+.App-link {
+  color: var(--link);
+}
+
+.App-anchor {
+  position: relative;
+  top: -70px;
+}
+
+.App-footer {
+  height: auto
+}
+
+.hr {
+  align-self: stretch;
+  /* background-image: linear-gradient(to right, var(--med), var(--dark), var(--med)); */
+  background-color: var(--dark);
+  height: 2px;
+}
+
+.vr {
+  padding: 0px;
+  margin: 0px;
+  align-self: stretch;
+  background-image: linear-gradient(to right, var(--med), var(--dark), var(--med));
+  width: 4px;
+}
+
+.imageStyle {
+  height: 200px;
+  width: auto;
+}
+
+.imageRowStyle {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px;
+  width: 100vm;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: fit-content
+}
+
+.fancybg {
+  background-image: linear-gradient(to right, var(--dark), var(--med), var(--dark));
+}
+
+.deep {
+  box-shadow: inset 0px 0px 10px 5px var(--dark);
+}
+
+.deep-y {
+  /* background: linear-gradient(to top, var(--dark), transparent 10px),
+    linear-gradient(to bottom, var(--dark), transparent 10px); */
+}
+
+.outset {
+  box-shadow: 0px 0px 5px 3px var(--dark)
+}
+
+.c {
+  text-align: center;
+}
+
+.solid-bg {
+  background-color: var(--med);
+}
+
+#background-video {
+  width: 108vw;
+  height: calc(100vh + 8vw);
+  object-fit: cover;
+  position: fixed;
+  top: -4vw;
+  left: -4vw;
+  z-index: -1;
+  filter: none
+}

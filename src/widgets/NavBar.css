@@ -1,0 +1,77 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;
+    width: stretch;
+    height: 50px;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.title {
+    margin: 10px;
+    margin-right: auto;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.menuItem {
+    width: 60px;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px;
+    background-color: teal;
+    border-radius: 3px;
+    color: var(--light);
+    text-decoration: none;
+    text-align: center;
+    scroll-behavior: smooth;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+
+.menuItem:hover {
+    background-color: var(--light);
+    color: teal;
+}
+
+.menuItem:active {
+    background-color: white;
+}
+
+.menuItem1 {
+    width: 60px;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-color: teal;
+    border-radius: 3px;
+    color: var(--light);
+    text-decoration: none;
+    text-align: center;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+.menuItem1:hover {
+    background-color: teal;
+}
+
+
+
+.selected {
+    background-color: rgb(0, 185, 185);
+}

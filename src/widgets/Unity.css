@@ -1,0 +1,12 @@
+.UContainer {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    max-width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    background-color: var(--med);
+}
