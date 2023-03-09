@@ -19,7 +19,7 @@ const macintyre = {
         {
             link: "https://github.com/msunde137",
             src: github,
-            alt: "GitHub"
+            alt: "GitHub",
         },
         {
             link: "mailto:imacsunde@gmail.com",
