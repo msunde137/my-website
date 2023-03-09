@@ -8,13 +8,8 @@ const syalomeeprofile = "./res/images/syalomee.jpg"
 const macintyre = {
     profile: profile,
     name: "Macintyre Sunde",
-    title: "Graduate from Haverford College",
-    bio: "Macintyre Sunde is a recent graduate from Haverford\
-    College who loves climbing and making art. They\
-    studied Computer Science and love computer graphics\
-    for its intersection with visual studies. They are\
-    driven by the mission to help people and the planet\
-    with their technical knowledge.",
+    title: "Software Developer and Creative",
+    bio: "Macintyre is a recent graduate from Haverford College with academic and personal experience in software development, computer graphics and technical art. They majored in Computer Science at Haverford and took many courses in visual studies and traditional arts. They are driven by the mission to help people and the planet with their technical knowledge and creative spirit.",
     socials: [
         {
             link: "https://www.linkedin.com/in/macintyre-sunde-82b13b1a6/",
